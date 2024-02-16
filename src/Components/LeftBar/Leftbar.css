@@ -1,0 +1,114 @@
+.theme-light .LeftBar {
+  flex: 2;
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+  background-color: white;
+  color: #000;
+}
+.theme-light .LeftBar::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 480px) {
+  .theme-light .LeftBar {
+    display: none;
+  }
+}
+.theme-light .LeftBar .containner {
+  padding: 20px;
+}
+.theme-light .LeftBar .containner hr {
+  margin: 20px 0px;
+  border: none;
+  height: 0.5px;
+  background-color: lightgray;
+}
+.theme-light .LeftBar .containner .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.theme-light .LeftBar .containner .menu span {
+  font-size: 12px;
+}
+.theme-light .LeftBar .containner .menu .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.theme-light .LeftBar .containner .menu .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.theme-light .LeftBar .containner .menu .user span {
+  font-size: 14px;
+}
+.theme-light .LeftBar .containner .menu .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.theme-light .LeftBar .containner .menu .item img {
+  width: 30px;
+}
+.theme-dark .LeftBar {
+  flex: 2;
+  position: sticky;
+  top: 60px;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+  background-color: #222;
+  color: whitesmoke;
+}
+.theme-dark .LeftBar::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 480px) {
+  .theme-dark .LeftBar {
+    display: none;
+  }
+}
+.theme-dark .LeftBar .containner {
+  padding: 20px;
+}
+.theme-dark .LeftBar .containner hr {
+  margin: 20px 0px;
+  border: none;
+  height: 0.5px;
+  background-color: #444;
+}
+.theme-dark .LeftBar .containner .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.theme-dark .LeftBar .containner .menu span {
+  font-size: 12px;
+}
+.theme-dark .LeftBar .containner .menu .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.theme-dark .LeftBar .containner .menu .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.theme-dark .LeftBar .containner .menu .user span {
+  font-size: 14px;
+}
+.theme-dark .LeftBar .containner .menu .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.theme-dark .LeftBar .containner .menu .item img {
+  width: 30px;
+}/*# sourceMappingURL=Leftbar.css.map */
